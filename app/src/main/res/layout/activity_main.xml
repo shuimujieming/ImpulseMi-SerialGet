@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="clip_vertical"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ImpulseMi 序列号密文获取"
+        android:gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textColor="#224EFF"
+        />
+    <EditText
+        android:id="@+id/myserial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="您的序列号为："
+        android:singleLine="false" />
+    <EditText
+        android:id="@+id/myserial1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="您的本机密文为：" />
+    <EditText
+        android:id="@+id/serial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:hint="请输入需要获取密文的序列号！"
+        />
+    <EditText
+        android:id="@+id/serialget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="获取的密文在这！"
+        android:singleLine="false"
+        />
+    <Button
+        android:id="@+id/getpass"
+        android:text="获取密文"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/getmypass"
+        android:text="获取本设备序列号及密文"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+</LinearLayout>
